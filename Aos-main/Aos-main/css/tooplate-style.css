@@ -734,6 +734,23 @@ button{
   padding: 10px;
 }
 
+.floating-donate{
+  width: 100px ;
+  height: 40px;
+  background-color: #161E8E;
+  font-size: medium;
+  font-weight: bold;
+  color: white;
+  position: fixed;
+  bottom:0;
+  margin-bottom: 0;
+  bottom: 5%;
+  z-index: 1;
+   right: 0;
+   right: 5%;
+   border-radius: 20px;
+}
 
-
-
+.floating-donate:hover{
+ color: #2FAC66;
+}
