@@ -3,7 +3,6 @@ Tooplate 2115 Marvel
 https://www.tooplate.com/view/2115-marvel
 */
 
-
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
 body {
   font-family: "Maven Pro", sans-serif;
@@ -295,18 +294,19 @@ b, strong {
   color: #ffffff;
 }
 
-.dark-mode {
+.dark-mode{
   background: #0c0c0d;
 }
 .dark-mode .navbar-light .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255) ;
 }
 .dark-mode .navbar-light .navbar-nav .nav-link:hover {
-  color: #161E8E;
+  color: #2FAC66 !important;
 }
-.dark-mode .navbar[class*="headroom--not-top"] {
-  background: #0c0c0d;
+.dark-mode   .navbar[class*="headroom--not-top"]  {
+  background: #0c0c0d !important;
   border-bottom: 1px solid #1f1f1f;
+  border: #0c0c0d;
 }
 .dark-mode .small-text {
   background: #0d0c15;
@@ -314,7 +314,7 @@ b, strong {
 }
 .dark-mode .feature-card .uil,
 .dark-mode .navbar-light .navbar-brand,
-.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
+.dark-mode h1, .dark-mode h2, .dark-mode p, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
 .dark-mode .color-mode {
   color: #ffffff;
 }
@@ -394,6 +394,10 @@ b, strong {
 .owl-carousel .owl-nav .owl-next:before {
   content: '\e836';
   right: -45px;
+}
+
+.c-image{
+
 }
 
 .owl-theme .owl-nav [class*=owl-] {
@@ -515,7 +519,7 @@ b, strong {
   }
 
   .navbar-collapse {
-    background: #ffffff;
+   
     text-align: center;
     padding-bottom: 20px;
   }
@@ -691,7 +695,7 @@ button{
 }
 
 
-/*Samller text*/
+/*Smaller text*/
 .course-description {
   font-size: 14px; /* You can adjust the font size as needed */
 }
@@ -728,7 +732,6 @@ button{
   border-radius: 10px;
   text-align: center;
   padding: 10px;
-
 }
 
 
