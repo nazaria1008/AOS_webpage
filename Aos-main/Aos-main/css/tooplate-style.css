@@ -79,6 +79,11 @@ h3 {
   color: #484848;
 }
 
+/*team image*/
+.team-image{
+  height: 300px;
+  width: 200px;
+}
 h3,
 b, strong {
   font-weight: bold;
@@ -522,6 +527,7 @@ b, strong {
    
     text-align: center;
     padding-bottom: 20px;
+    background-color: white;
   }
 
   .navbar-expand-sm .navbar-nav .nav-link {
@@ -623,7 +629,66 @@ button{
   justify-content: center;
 }
 
+/*Testeo*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+
+@media (max-width: 600px) {
+  .box {
+    width: 100%;
+  }
+}
+
+
+
+
+
+/*Definitive box*/
+.box {
+  padding:20px;
+  margin: 20px 0;
+ 
+  border: 2px solid #ccc; 
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  margin: 10px; /* more space between boxes */
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1); /* slightly lighter shadow */
+
+}
+
+
+
+.box button {
+  background-color: #161E8E;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.box button:hover {
+  background-color: #161E8E;
+}
+
+
+.box:hover {
+  transform: translateY(-6px); /* increased height on hover */
+}
+
+@media (min-width: 600px){
+.box {
+    width: 50vw;
+  
+}
+}
+.avatar{
+  width: 60px;
+}
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
@@ -642,6 +707,11 @@ button{
 
 .container {
   padding: 2px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+   align-items: center;
+
 }
 .texto {
   color: #212121;
@@ -684,8 +754,8 @@ button{
 
 }
 .w3-left{
-  width: 200px;
-  height: 400px;
+  width: 60px;
+  height: 60px;
 }
 @media (max-width: 768px) {
   .w3-card-4 {
@@ -713,12 +783,12 @@ button{
 
 .team-container {
   display: flex;
-  flex-basis: 50%;
   flex-wrap: wrap;
-  justify-content: space-between; /* This ensures that there's space between team members */
+  justify-content: space-around; /* This ensures that there's space between team members */
   align-items: center; 
   width: 100%; 
   padding: 0 15px; /* Adding some padding to the container for better spacing */
+  padding-top: 30px;
 }
 
 .team-member {
@@ -726,7 +796,7 @@ button{
   flex-direction: column; /* Stack children vertically */
   align-items: center; /* Center children horizontally */
   justify-content: center; /* Center children vertically */
- 
+  width: 300px;
   height: 400px;
   margin-bottom: 20px; 
   border-radius: 10px;
