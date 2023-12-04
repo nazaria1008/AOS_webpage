@@ -52,7 +52,7 @@ function get_picture(link){
      //Add elements to body
      const storage = getStorage();
 
-     image.src = getDownloadURL(refst(storage,image_));
+     image.src = image_;
      text_container.appendChild(h3ele);
      text_container.appendChild(pele);
      member_container.appendChild(image);
